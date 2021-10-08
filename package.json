@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-react-native.git"
+    "url": "git+https://github.com/sudheerneo/gamechallenges-react-android-app"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -39,27 +39,27 @@
     "babel-preset-expo": "8.3.0"
   },
   "keywords": [
-    "argon react native",
-    "argon design system",
-    "argon app react native",
-    "argon iOS",
+    "Sudheer react native",
+    "Sudheer design system",
+    "Sudheer app react native",
+    "Sudheer iOS",
     "react native iOS",
     "creative tim",
-    "argon Android",
+    "Sudheer Android",
     "react native ui kit",
     "react native expo",
     "freebie",
-    "react native argon design",
+    "react native Sudheer design",
     "react native galio",
-    "galio argon free",
+    "galio Sudheer free",
     "galio react native free app",
-    "argon expo react native",
+    "Sudheer expo react native",
     "react native ui template"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Sudheer <contact@sudheerinfo.com> (https://www.sudheerinfo.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-react-native/issues"
+    "url": "https://github.com/sudheerneo/gamechallenges-react-android-app/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-react-native"
+  "homepage": "https://github.com/sudheerneo/gamechallenges-react-android-app"
 }
