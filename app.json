@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Argon FREE React Native",
-    "slug": "argon-free-react-native",
+    "name": "gammo",
+    "slug": "gammo-rooms-manager",
     "privacy": "public",
     "platforms": [
       "ios",
       "android"
     ],
-    "version": "1.7.1",
-    "orientation": "auto",
+    "version": "0.1.1",
+    "orientation": "potrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,6 +24,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "Argon React Native, based on Argon Design System. Coded by Creative Tim"
+    "description": "Gammo, based on room game play managing system. Coded by Sudheer"
   }
 }
