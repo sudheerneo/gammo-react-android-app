@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useContext, useEffect} from "react";
 import {
   StyleSheet,
   Dimensions,
@@ -13,12 +13,40 @@ import { Button } from "../components";
 import { Images, argonTheme } from "../constants";
 import { HeaderHeight } from "../constants/utils";
 
+//auth
+import { signOut } from 'firebase/auth';
+import { auth } from '../config';
+import { onAuthStateChanged } from 'firebase/auth';
+import { AuthenticatedUserContext } from '../providers';
+import { NavigationActions } from "@react-navigation/compat";
+import { UserFlow } from '../screens/UserFlow';
+
 const { width, height } = Dimensions.get("screen");
 
 const thumbMeasure = (width - 48 - 32) / 3;
 
-class Profile extends React.Component {
-  render() {
+export const Profile = (navigation) => {
+  const { user, setUser } = useContext(AuthenticatedUserContext);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // onAuthStateChanged returns an unsubscriber
+    const unsubscribeAuthStateChanged = onAuthStateChanged(
+      auth,
+      authenticatedUser => {
+        authenticatedUser ? setUser(authenticatedUser) : setUser(null);
+        setIsLoading(false);
+      }
+    );
+
+    // unsubscribe auth listener on unmount
+    return unsubscribeAuthStateChanged;
+  }, [user]);
+
+  const handleLogout = () => {
+    signOut(auth).catch(error => console.log('Error logging out: ', error));
+    () => {navigation.navigate('UserFlow')}
+  };
     return (
       <Block flex style={styles.profile}>
         <Block flex>
@@ -97,7 +125,7 @@ class Profile extends React.Component {
                 <Block flex>
                   <Block middle style={styles.nameInfo}>
                     <Text bold size={28} color="#32325D">
-                      Jessica Jones, 27
+                     {user ? (user.email).split("@")[0]+ ", 28" : 'Jessica Jones, 27'}
                     </Text>
                     <Text size={16} color="#32325D" style={{ marginTop: 10 }}>
                       San Francisco, USA
@@ -115,16 +143,13 @@ class Profile extends React.Component {
                       An artist of considerable range, Jessica name taken by
                       Melbourne …
                     </Text>
-                    <Button
-                      color="transparent"
-                      textStyle={{
-                        color: "#233DD2",
-                        fontWeight: "500",
-                        fontSize: 16
-                      }}
-                    >
-                      Show more
-                    </Button>
+                      <Block middle>
+                      <Button color="primary" style={styles.createButton}  onPress={user ? handleLogout : handleLogout}>
+                        <Text bold size={14} color={argonTheme.COLORS.WHITE}>
+                        {user ? 'Logout' : 'no user logged in'}
+                        </Text>
+                      </Button>
+                    </Block>
                   </Block>
                   <Block
                     row
@@ -276,7 +301,7 @@ class Profile extends React.Component {
                   </ScrollView>*/}
       </Block>
     );
-  }
+  
 }
 
 const styles = StyleSheet.create({

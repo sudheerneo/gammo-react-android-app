@@ -2,10 +2,10 @@ import React from 'react';
 import { StyleSheet, Dimensions, ScrollView, ImageBackground } from 'react-native';
 import { Block, theme, Text } from 'galio-framework';
 import { Card } from '../components';
-import { articles, Images, argonTheme } from "../constants/";
+import { articles, Images, argonTheme } from "../constants";
 const { width } = Dimensions.get('screen');
 
-class Home extends React.Component {
+class Bgmi extends React.Component {
   renderArticles = () => {
     return (
       <ScrollView
@@ -56,7 +56,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <Block flex center style={styles.home}>
+      <Block flex center style={styles.bgmi}>
         {this.renderArticles()}
       </Block>
     );
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     textAlign: 'center'
   },
-  home: {
+  bgmi: {
     width: width,    
   },
   articles: {
@@ -82,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Bgmi;
