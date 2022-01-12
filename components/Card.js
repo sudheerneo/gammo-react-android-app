@@ -58,10 +58,14 @@ const styles = StyleSheet.create({
   cardTitle: {
     flex: 1,
     flexWrap: 'wrap',
-    paddingBottom: 5
+    paddingBottom: 5,
+    textAlign: 'center',
+    textAlignVertical: 'center'
   },
   cardDescription: {
-    padding: theme.SIZES.BASE / 2
+    padding: theme.SIZES.BASE / 2,
+    textAlign: 'center',
+    textAlignVertical: 'center'
   },
   imageContainer: {
     borderRadius: 3,
@@ -69,7 +73,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   image: {
-    // borderRadius: 3,
+    borderRadius: 3,
   },
   horizontalImage: {
     height: 122,

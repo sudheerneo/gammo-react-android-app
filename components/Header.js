@@ -66,6 +66,11 @@ class Header extends React.Component {
           <BellButton key='chat-home' navigation={navigation} isWhite={white} />,
           <BasketButton key='basket-home' navigation={navigation} isWhite={white} />
         ]);
+      case 'Bgmi':
+          return ([
+            <BellButton key='chat-categories' navigation={navigation} />,
+            <BasketButton key='basket-categories' navigation={navigation} />
+          ]);
       case 'Deals':
         return ([
           <BellButton key='chat-categories' navigation={navigation} />,
@@ -223,8 +228,10 @@ const styles = StyleSheet.create({
   },
   navbar: {
     paddingVertical: 0,
-    paddingBottom: theme.SIZES.BASE * 1.5,
-    paddingTop: iPhoneX ? theme.SIZES.BASE * 4 : theme.SIZES.BASE,
+    // paddingBottom: theme.SIZES.BASE * 1.5,
+    // paddingTop: iPhoneX ? theme.SIZES.BASE * 4 : theme.SIZES.BASE,
+    paddingTop: 0,
+    paddingBottom: 0,
     zIndex: 5,
   },
   shadow: {
