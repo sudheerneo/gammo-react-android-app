@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089058578944",
+    "project_id": "esportsapp-329ce",
+    "storage_bucket": "esportsapp-329ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089058578944:android:f8d323c25bed9e55f5eee5",
+        "android_client_info": {
+          "package_name": "com.boombamesports.gamechallenges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089058578944-vrr10trm4mv4ong7u4u05k5e183j9mda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqElC7B0xdneRItJYNfI36R5MswBH8Dx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089058578944-vrr10trm4mv4ong7u4u05k5e183j9mda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

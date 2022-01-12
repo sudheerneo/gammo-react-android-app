@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "gammo",
+    "name": "game-challenges",
     "slug": "gammo-rooms-manager",
     "privacy": "public",
     "platforms": [
@@ -8,7 +8,7 @@
       "android"
     ],
     "version": "0.1.1",
-    "orientation": "potrait",
+    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,9 +18,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    
+    "android": {
+      "package": "com.boombamesports.gamechallenges",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
     },
