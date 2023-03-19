@@ -1,1 +1,9 @@
-Creating app for room matching game play tokening
+
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_timeline.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/commits)
+[![Issue status graph](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_issues.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/issues)
+[![Pull request status graph](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_prs.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/pulls)
+[![Trending topics](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_words.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/commits)
+[![Top contributors](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_users.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/graphs/contributors)
+[![Activity map](https://images.repography.com/35428199/sudheerneo/gamechallenges-react-android-app/recent-activity/zUE2R64bKY5E5M9koRLh70m97Ybmm9sD5H4t7qS7cg0/PDCyVJdHSLKkU5nNOhXZ8AE8BSu3bEboG-_OLiA1sM8_map.svg)](https://github.com/sudheerneo/gamechallenges-react-android-app/commits)
+
